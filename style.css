@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-image: url(image/landscape-1033.gif);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+}
+
+.chronometre {
+    background-color: #eadb107f;
+    padding: 10px;
+    border-radius: 6px;
+    width: 450px;
+    align-items: center;
+    border: solid 3px #eba8a8;
+}
+
+.tim {
+    margin: auto;
+    width: 100%;
+    border-radius: 30px;
+    padding: 5px 0;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    border: solid 2px #1b1919cb;
+    background-color: #ffffffa8;
+}
+
+.tim span {
+    font-family: silkscreen;
+}
+
+
+
+.controls {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+button {
+    background-color: rgba(254, 109, 109, 0.825);
+    color: #f5f4f4;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 31%;
+    border: 0;
+    letter-spacing: 1px;
+    transition: 0.5s;
+    cursor: pointer;
+    border: solid 2px #1f1d1dd3;
+    border-radius: 30px;
+    font-family: silkscreen;
+}
+
+button:hover {
+    transform: scale(0.9);
+}
+
+p {
+   color: #f5f4f4;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
